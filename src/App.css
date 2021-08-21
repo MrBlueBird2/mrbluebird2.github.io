@@ -1,0 +1,194 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  color: white;
+  background: linear-gradient(rgb(71, 70, 70), rgb(68, 67, 67));
+  background-size: cover;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.links-portfolio {
+  width: 25vw;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: white;
+  color: black;
+  position: -webkit-sticky;
+  top: 0;
+  position: sticky;
+}
+
+.p-name {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.p-pic img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 1px solid grey;
+  border-radius: 100%;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+li a {
+  text-decoration: none;
+  margin-left: -30px;
+}
+
+.about-me {
+  padding: 10px;
+}
+
+@media screen and (max-width:1000px) {
+  .links-portfolio {
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .c-1 {
+    margin-top: 300px;
+  }
+}
+
+.git-img {
+  width: 100%;
+  max-width: 50px;
+}
+
+.cf-img {
+  width: 100%;
+  max-width: 40px;
+  margin-left: 10px;
+}
+
+.ac-img {
+  width: 100%;
+  max-width: 60px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.cc-img {
+  width: 100%;
+  max-width: 40px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.body {
+  margin-top: -610px;
+  margin-left: 500px;
+}
+
+.b-p-name {
+  margin-left: 220px;
+}
+
+.card {
+  width: 18rem;
+  color: black;
+}
+
+.c-1 {
+  margin-left: -120px;
+  margin-top: 50px;
+  width: 20rem;
+  height: 17.1rem;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.c-2 {
+  margin-left: 210px;
+  margin-top: -273.5px;
+  width: 30rem;
+}
+
+@media screen and (max-width:1000px) {
+  .c-1 {
+    margin-top: 430px;
+    position: relative;
+    left: -380px;
+    width: 100vw;
+  }
+
+  .c-2 {
+    margin-top: 0px;
+    position: relative;
+    left: -710px;
+    width: 100vw;
+  }
+
+  .b-p-name {
+    display: none;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.c-3 {
+  margin-left: -120px;
+  margin-top: 10px;
+  width: 50.6rem;
+}
+
+@media screen and (max-width:1000px) {
+  .c-3 {
+    margin-left: -500px;
+    margin-top: -5px;
+    width: 100vw;
+  }
+}
