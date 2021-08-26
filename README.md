@@ -1,3 +1,5 @@
-This is my portfolio created using HTML, CSS, and Bootstrap.
+# mrblubebird2.github.io
+This is my portfolio created using only Bootstrap.
 
-Also visit my website https://mrbluebird2.github.io
+# Is this responsive??
+Yes, this is a responsive portfolio.
