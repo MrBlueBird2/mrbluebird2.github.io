@@ -1,2 +1,2 @@
-# mrblubebird2.github.io
+# mrbluebird2.github.io
 This is my portfolio created using only Bootstrap.
