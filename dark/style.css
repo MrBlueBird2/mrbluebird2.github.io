@@ -25,8 +25,47 @@ html {
 
 :root {
     --para-color: #6B7C95;
+    --bg-color: #191919;
+    --h-color: #fff;
 }
 
 p {
+    color: var(--para-color);
+}
+
+body {
+    background: var(--bg-color);
+}
+
+h3 {
+    color: var(--h-color);
+}
+
+h3 {
+    color: var(--h-color);
+}
+
+h2 {
+    color: var(--h-color);
+}
+
+nav {
+    background: var(--bg-color);
+}
+
+.td-dark {
+    color: var(--h-color);
+}
+
+h4 {
+    color: var(--h-color);   
+}
+
+.item-1 {
+    max-width: 100%;
+    width: 295px;
+}
+
+.t2 {
     color: var(--para-color);
 }
