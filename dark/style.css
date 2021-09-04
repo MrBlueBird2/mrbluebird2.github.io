@@ -8,7 +8,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #e77878;
+    background: var(--para-color);
 }
 
 body::-webkit-scrollbar-track {
