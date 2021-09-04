@@ -22,3 +22,11 @@ body::-webkit-scrollbar-track {
 html {
     display: block;
 }
+
+:root {
+    --para-color: #6B7C95;
+}
+
+p {
+    color: var(--para-color);
+}
