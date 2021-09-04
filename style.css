@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #e77878;
+}
+
+body::-webkit-scrollbar-track {
+    background: #b8b0b0;
+}
+
+::selection {
+    background: #4560F060;
+}
+
+html {
+    display: block;
+}
