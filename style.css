@@ -1,7 +1,6 @@
 body {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    cursor: url(https://www.tutorialrepublic.com/examples/images/custom.gif), url(https://www.tutorialrepublic.com/examples/images/custom.cur), default;
 }
 
 body::-webkit-scrollbar {
