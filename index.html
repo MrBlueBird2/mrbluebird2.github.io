@@ -16,21 +16,22 @@
     <title>Badri vishal - mrbluebird2</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-light top-fixed bg-light">
+<body class="bg-dark">
+    <nav class="navbar navbar-dark top-fixed bg-dark">
         <div class="container-lg">
-            <a class="navbar-brand text-danger fw-bold fs-4" href="#">B.V.M.T</a>
+            <a class="navbar-brand custom-color-not-b fw-bold fs-4" href="#">B.V.M.T</a>
             <div class="dropdown">
-                <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1"
+                <button class="btn btn-outline-light px-3" type="button" id="dropdownMenuButton1"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-bars"></i>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1" id="dd-m">
-                    <li><a class="dropdown-item" href="#home">Home</a></li>
-                    <li><a class="dropdown-item" href="#about">About</a></li>
-                    <li><a class="dropdown-item" href="#services">Services</a></li>
-                    <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-                    <li><a class="dropdown-item" href="/dark/">Dark Mode</a></li>
+                <ul class="dropdown-menu dropdown-menu-end shadow-lg bg-dark" aria-labelledby="dropdownMenuButton1"
+                    id="dd-m">
+                    <li><a class="dropdown-item text-light" href="#home">Home</a></li>
+                    <li><a class="dropdown-item text-light" href="#about">About</a></li>
+                    <li><a class="dropdown-item text-light" href="#services">Services</a></li>
+                    <li><a class="dropdown-item text-light" href="#portfolio">Portfolio</a></li>
+                    <li><a class="dropdown-item text-light" href="/dark/">Dark Mode</a></li>
                 </ul>
             </div>
         </div>
@@ -40,20 +41,20 @@
             <div class="row align-items-center align-content-center">
                 <div class="col md-6 mt-5 mt-md-0">
                     <div class="home-img text-center">
-                        <img src="https://avatars.githubusercontent.com/u/79777609?v=4" alt="profile_img"
-                            class="rounded-circle" style="min-width: 100%; width: 250px;" />
+                        <img src="./src/jpg-p.png" alt="profile_img" class="rounded-circle"
+                            style="min-width: 100%; width: 250px;" />
                     </div>
                 </div>
                 <div class="col md-6 mt-5 mt-md-0 order-md-first">
                     <div class="home-text">
-                        <p class="text-muted mb-1">Hello I'm</p>
-                        <h1 class="text-danger text-uppercase fs-1 fw-bold">Front End Developer</h1>
+                        <p class=" mb-1">Hello I'm</p>
+                        <h1 class="custom-color-not-b text-uppercase fs-1 fw-bold">Front End Developer</h1>
                         <h2 class="fs-4">Badri Vishal Mani Tripathi</h2>
-                        <p class="mt-4 text-muted">
+                        <p class="mt-4 ">
                             I 'm a front end developer and a Competitve Programmer. Whenever I'm Free, I create websites
                             using HTML and Bootstrap.
                         </p>
-                        <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+                        <a href="#portfolio" class="btn btn-outline-light px-3 mt-3">My Work</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +73,7 @@
                 <div class="col-md-6">
                     <div class="about-text">
                         <h3 class="fs-4 mb-3">Front End Developer, Github, and more.</h3>
-                        <p class="text-muted">
+                        <p class="">
                             I actually like to do front end development. Whenever I Create a project I always upload
                             it on github.
                         </p>
@@ -81,25 +82,26 @@
                         <div class="col-sm-4">
                             <div class="fact-item">
                                 <h4 class="fs-1 fw-bold">13+</h4>
-                                <p class="text-muted">Projects Completed</p>
+                                <p class="">Projects Completed</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="fact-item">
-                                <h4 class="fs-1 fw-bold">230+</h4>
-                                <p class="text-muted">Commits on Github</p>
+                                <h4 class="fs-1 fw-bold">430+</h4>
+                                <p class="">Commits on Github</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="fact-item">
-                                <h4 class="fs-1 fw-bold">10+</h4>
-                                <p class="text-muted">Pull Requests On Github</p>
+                                <h4 class="fs-1 fw-bold">25+</h4>
+                                <p class="">Pull Requests On Github</p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 d-flex align-items-center">
-                            <a href="https://github.com/MrBlueBird2" class="btn px-3 btn-danger me-5">GitHub Profile</a>
+                            <a href="https://github.com/MrBlueBird2" class="btn px-3 btn-outline-light me-5">GitHub
+                                Profile</a>
                             <div class="social-links">
                                 <a href="https://github.com/MrBlueBird2" class="text-dark me-2"><i
                                         class="fa fa-github"></i></a>
@@ -153,36 +155,37 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4 col-lg-4">
-                    <div class="service-item shadow-sm p-4 rounded bg-white">
-                        <div class="icon my-3 text-danger fs-2">
+                    <div class="service-item shadow-lg p-4 rounded bg-dark">
+                        <div class="icon my-3 custom-color-not-b fs-2">
                             <i class="fa fa-code"></i>
                         </div>
                         <h3 class="fs-5 py-3 fw-bold">Web Development</h3>
-                        <p class="text-muted">
-                            I 'm now expert at web development, I have created more than 3 websites and uploaded the
+                        <p class="">
+                            I'm now finally good at web development, I have created more than 3 websites and uploaded
+                            the
                             code on github.
                         </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
-                    <div class="service-item shadow-sm p-4 rounded bg-white">
-                        <div class="icon my-3 text-danger fs-2">
+                    <div class="service-item shadow-lg p-4 rounded bg-dark">
+                        <div class="icon my-3 custom-color-not-b fs-2">
                             <i class="fa fa-file"></i>
                         </div>
                         <h3 class="fs-5 py-3 fw-bold">Competitve Programming</h3>
-                        <p class="text-muted">
+                        <p class="">
                             This is the thing I love to do, In competitive programming, you have some problems,
                             and you need to find the solution of the problem.
                         </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
-                    <div class="service-item shadow-sm p-4 rounded bg-white">
-                        <div class="icon my-3 text-danger fs-2">
+                    <div class="service-item shadow-lg p-4 rounded bg-dark">
+                        <div class="icon my-3 custom-color-not-b fs-2">
                             <i class="fa fa-github"></i>
                         </div>
                         <h3 class="fs-5 py-3 fw-bold">GitHub</h3>
-                        <p class="text-muted">
+                        <p class="">
                             I upload projects code on GitHub. Github is a platform where you can share code of a project
                             to other peoples
                         </p>
@@ -202,53 +205,50 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item">
-                        <img src="https://w7.pngwing.com/pngs/571/686/png-transparent-jarvis-logo-edwin-jarvis-iron-man-youtube-marvel-cinematic-universe-male-jarvis-ui-comics-superhero-computer-thumbnail.png"
-                            alt="portfolio_item" class="rounded-circle w-100">
-                        <h3 class="fw-bold fs-5 my-2">Jarvis in Python</h3>
-                        <p class="text-muted">
+                    <div class="portfolio-item bg-dark shadow-lg">
+                        <img src="./src/folder-icon.svg" alt="portfolio_item" class="py-3 m-3" style="width: 50px;">
+                        <h3 class="fw-bold fs-5 m-3 my-0">Jarvis in Python</h3>
+                        <p class="m-3">
                             This is an AI Created using Python. This AI can tell you the time, google search something,
                             and more.
                         </p>
                         <p class="mb-4"><a href="https://github.com/mrbluebird2/jarvis-in-python"
-                                class="text-danger text-decoration-none">GitHub Repository</a></p>
+                                class="custom-color-not-b text-decoration-none m-3">GitHub Repository</a></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item">
-                        <img src="https://i.pinimg.com/originals/82/cd/7c/82cd7c4e0b086f658841c11830c14337.jpg"
-                            alt="portfolio_item" class="rounded-circle w-100">
-                        <h3 class="fw-bold fs-5 my-2">To Do List</h3>
-                        <p class="text-muted">
-                            This is a to do list app created using Flask, HTML, and Jinja.
-                            You can create, update, delete, and read to do list.
+                    <div class="portfolio-item bg-dark shadow-lg">
+                        <img src="./src/folder-icon.svg" alt="portfolio_item" class="py-3 m-3" style="width: 50px;">
+                        <h3 class="fw-bold fs-5 m-3 my-0">Web Browser</h3>
+                        <p class="m-3">
+                            Web Browser created using Python. Only python programmers will like it!, PyQt5 Module is used
+                            for creating this browser.
                         </p>
-                        <p class="mb-4"><a href="https://github.com/mrbluebird2/to-do-list-flask"
-                                class="text-danger text-decoration-none">GitHub Repository</a></p>
+                        <p class="mb-4"><a href="https://github.com/mrbluebird2/jarvis-in-python"
+                                class="custom-color-not-b text-decoration-none m-3">GitHub Repository</a></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item">
-                        <img src="https://cdn1.iconfinder.com/data/icons/google_jfk_icons_by_carlosjj/512/chrome.png"
-                            alt="portfolio_item" class="rounded-circle w-100">
-                        <h3 class="fw-bold fs-5 my-2">Web Browser</h3>
-                        <p class="text-muted">
-                            Are you bored using google chrome or any other browser?
-                            Don't use it create your own web browser using Python.
+                    <div class="portfolio-item bg-dark shadow-lg">
+                        <img src="./src/folder-icon.svg" alt="portfolio_item" class="py-3 m-3" style="width: 50px;">
+                        <h3 class="fw-bold fs-5 m-3 my-0">Jarvis in Python</h3>
+                        <p class="m-3">
+                            This is an AI Created using Python. This AI can tell you the time, google search something,
+                            and more.
                         </p>
-                        <p class="mb-4"><a href="https://github.com/mrbluebird2/web-browser"
-                                class="text-danger text-decoration-none">GitHub Repository</a></p>
+                        <p class="mb-4"><a href="https://github.com/mrbluebird2/jarvis-in-python"
+                                class="custom-color-not-b text-decoration-none m-3">GitHub Repository</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="freelancer-available bg-danger py-5">
+    <section class="freelancer-available bg-dark shadow-lg py-5">
         <div class="container-lg py-4">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <p class="text-light fs-5">Do you have any HTML Project ?</p>
-                    <h2 class="text-light fw-bold fs-1">I'm Available For Freelancer Projects</h2>
+                    <p class=" fs-5">Do you have any HTML Project ?</p>
+                    <h2 class=" fw-bold fs-1">I'm Available For Freelancer Projects</h2>
                     <a href="#contact" class="btn btn-outline-light">
                         Hire me
                     </a>
@@ -268,30 +268,30 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="contact-item d-flex">
-                        <div class="icon fs-4 text-danger">
+                        <div class="icon fs-4 custom-color-not-b">
                             <i class="fa fa-envelope"></i>
                         </div>
                         <div class="text ms-3">
                             <h3 class="fs-5">Email</h3>
-                            <p class="text-muted">badrivishalmanitripathi@gmail.com</p>
+                            <p class="">badrivishalmanitripathi@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item d-flex">
-                        <div class="icon fs-4 text-danger">
+                        <div class="icon fs-4 custom-color-not-b">
                             <i class="fa fa-github"></i>
                         </div>
                         <div class="text ms-3">
                             <h3 class="fs-5">GitHub</h3>
-                            <p class="text-muted">MrBlueBird2</p>
+                            <p class="">MrBlueBird2</p>
                         </div>
                     </div>
                     <div class="contact-item d-flex">
-                        <div class="icon fs-4 text-danger">
+                        <div class="icon fs-4 custom-color-not-b">
                             <i class="fa fa-linkedin-square"></i>
                         </div>
                         <div class="text ms-3">
                             <h3 class="fs-5">Linked in</h3>
-                            <p class="text-muted">Badri Vishal Mani Tripathi</p>
+                            <p class="">Badri Vishal Mani Tripathi</p>
                         </div>
                     </div>
                 </div>
@@ -323,7 +323,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="mailto:badrivishalmanitripathi@gmail.com"><button type="button"
-                                            class="btn btn-danger px-3">Send Message</button></a>
+                                            class="btn btn-outline-light px-3">Send Message</button></a>
                                 </div>
                             </div>
                         </form>
@@ -332,11 +332,11 @@
             </div>
         </div>
     </section>
-    <footer class="footer border-top py-4">
+    <footer class="footer py-4">
         <div class="container-lg">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="m-0 text-center text-muted">&copy; 2021 mrbluebird2.github.io</p>
+                    <p class="m-0 text-center ">&copy; Badri Vishal Mani Tripathi</p>
                 </div>
             </div>
         </div>

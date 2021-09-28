@@ -22,3 +22,85 @@ body::-webkit-scrollbar-track {
 html {
     display: block;
 }
+
+h2 {
+    display: inline-block;
+    background: linear-gradient(93.05deg, #EF9797 3.98%, rgba(206, 126, 199, 0.801616) 35.29%, #A364D6 68.78%,
+    #A1D0F9 97.44%);
+    width: fit-content;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    color: #8696AD;
+}
+
+h4 {
+    display: inline-block;
+    background: linear-gradient(93.05deg, #f89898 3.98%, rgba(253, 141, 244, 0.802) 35.29%, #b273e6 68.78%,
+    #A1D0F9 97.44%);
+    width: fit-content;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h5 {
+    color: #8696AD;
+}
+
+h1 {
+    display: inline-block;
+    background: linear-gradient(93.05deg, #EF9797 3.98%, rgba(206, 126, 199, 0.801616) 35.29%, #A364D6 68.78%,
+    #A1D0F9 97.44%);
+    width: fit-content;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+}
+
+h6 {
+    color: #8696AD;
+}
+
+.btn {
+    padding: 10px;
+}
+
+p {
+    color: #8696AD;
+}
+
+#dd-m li a:hover {
+    transition: 0.85s;
+    background: black;
+}
+
+#dd-m li a {
+    transition: 0.85s;
+}
+
+.custom-color-not-b {
+    display: inline-block;
+    background: linear-gradient(93.05deg, #EF9797 3.98%, rgba(206, 126, 199, 0.801616) 35.29%, #A364D6 68.78%,
+    #A1D0F9 97.44%);
+    width: fit-content;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input[type=text] {
+    background: #37393E;
+}
+
+textarea[type=text] {
+    background: #37393E;
+}
