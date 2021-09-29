@@ -1,6 +1,8 @@
 body {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-margin: 25px;
+    transition: 0.85s;
 }
 
 body::-webkit-scrollbar {
@@ -8,11 +10,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #e77878;
+    background: #8696AD;
 }
 
 body::-webkit-scrollbar-track {
-    background: #b8b0b0;
+    background: rgba(255, 255, 255, 0);
 }
 
 ::selection {
@@ -103,4 +105,9 @@ input[type=text] {
 
 textarea[type=text] {
     background: #37393E;
+}
+
+.random-red {
+    background: linear-gradient(93.05deg, #EF9797 3.98%, rgba(206, 126, 199, 0.801616) 35.29%, #A364D6 68.78%,
+    #A1D0F9 97.44%);
 }
