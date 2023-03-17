@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mrbluebird2.github.io
+Token: 915535bc6ca5b77b70525bd4cc4e97e5a8f8b742377a87e46c8a22fe6d46e30d
